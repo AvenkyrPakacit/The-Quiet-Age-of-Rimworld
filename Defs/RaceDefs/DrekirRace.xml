@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="Human">
+        <defName>DrekirRace</defName>
+        <label>drekir</label>
+        <description>A draconic being created by the Prejarngalmok for the Sivilao to be used as pack animals.</description>
+        <alienRace>
+            <generalSettings></generalSettings>
+            <graphicPaths></graphicPaths>
+            <styleSettings></styleSettings>
+            <thoughtSettings></thoughtSettings>
+            <relationSettings></relationSettings>
+            <raceRestriction></raceRestriction>
+            <compatibility></compatibility>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
+</Defs>

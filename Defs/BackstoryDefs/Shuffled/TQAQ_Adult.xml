@@ -7,6 +7,60 @@
 
   <!-- Spiritual / cultural -->
 
+  <BackstoryDef>
+    <defName>TQAQ_Mage1</defName>
+    <title>fire mage</title>
+    <titleShort>mage</titleShort>
+    <description>[PAWN_nameDef] is skilled in the arts of fire mana usage.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>TQAQ_Mage2</defName>
+    <title>ice mage</title>
+    <titleShort>mage</titleShort>
+    <description>[PAWN_nameDef] is skilled in the arts of ice mana usage.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>TQAQ_Mage3</defName>
+    <title>acid mage</title>
+    <titleShort>mage</titleShort>
+    <description>[PAWN_nameDef] is skilled in the arts of acid mana usage.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>TQAQ_Mage4</defName>
+    <title>lightning mage</title>
+    <titleShort>mage</titleShort>
+    <description>[PAWN_nameDef] is skilled in the arts of lightning magic.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>TQAQ_Mage5</defName>
+    <title>melter mage</title>
+    <titleShort>mage</titleShort>
+    <description>[PAWN_nameDef] is skilled in the arts of melter magic.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>TQAQ_Mage6</defName>
+    <title>torrent mage</title>
+    <titleShort>mage</titleShort>
+    <description>[PAWN_nameDef] is skilled in the arts of torrent magic.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
+  </BackstoryDef>
+
   <!-- Other -->
 
   <BackstoryDef>
@@ -16,8 +70,6 @@
     <description>Nothing notable is known about [PAWN_nameDef], other than [PAWN_pronoun]'s a denmate.</description>
     <slot>Adulthood</slot>
     <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
 </Defs>

@@ -13,6 +13,19 @@
     <titleShort>mage</titleShort>
     <description>[PAWN_nameDef] is skilled in the arts of fire mana usage.</description>
     <slot>Adulthood</slot>
+    <skillGains>
+      <Cooking>3</Cooking>
+      <Intellectual>3</Intellectual>
+      <Medicine>3</Medicine>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Caring</li>
+      <li>Cooking</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <possessions>
+      <MedicineHerbal>5</MedicineHerbal>
+    </possessions>
     <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
   </BackstoryDef>
 
@@ -22,6 +35,19 @@
     <titleShort>mage</titleShort>
     <description>[PAWN_nameDef] is skilled in the arts of ice mana usage.</description>
     <slot>Adulthood</slot>
+    <skillGains>
+      <Cooking>3</Cooking>
+      <Intellectual>3</Intellectual>
+      <Medicine>3</Medicine>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Caring</li>
+      <li>Cooking</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <possessions>
+      <MedicineHerbal>5</MedicineHerbal>
+    </possessions>
     <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
   </BackstoryDef>
 
@@ -31,6 +57,19 @@
     <titleShort>mage</titleShort>
     <description>[PAWN_nameDef] is skilled in the arts of acid mana usage.</description>
     <slot>Adulthood</slot>
+    <skillGains>
+      <Cooking>3</Cooking>
+      <Intellectual>3</Intellectual>
+      <Medicine>3</Medicine>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Caring</li>
+      <li>Cooking</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <possessions>
+      <MedicineHerbal>5</MedicineHerbal>
+    </possessions>
     <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
   </BackstoryDef>
 
@@ -40,6 +79,19 @@
     <titleShort>mage</titleShort>
     <description>[PAWN_nameDef] is skilled in the arts of lightning magic.</description>
     <slot>Adulthood</slot>
+    <skillGains>
+      <Cooking>3</Cooking>
+      <Intellectual>3</Intellectual>
+      <Medicine>3</Medicine>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Caring</li>
+      <li>Cooking</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <possessions>
+      <MedicineHerbal>5</MedicineHerbal>
+    </possessions>
     <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
   </BackstoryDef>
 
@@ -49,6 +101,19 @@
     <titleShort>mage</titleShort>
     <description>[PAWN_nameDef] is skilled in the arts of melter magic.</description>
     <slot>Adulthood</slot>
+    <skillGains>
+      <Cooking>3</Cooking>
+      <Intellectual>3</Intellectual>
+      <Medicine>3</Medicine>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Caring</li>
+      <li>Cooking</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <possessions>
+      <MedicineHerbal>5</MedicineHerbal>
+    </possessions>
     <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
   </BackstoryDef>
 
@@ -58,6 +123,19 @@
     <titleShort>mage</titleShort>
     <description>[PAWN_nameDef] is skilled in the arts of torrent magic.</description>
     <slot>Adulthood</slot>
+    <skillGains>
+      <Cooking>3</Cooking>
+      <Intellectual>3</Intellectual>
+      <Medicine>3</Medicine>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Caring</li>
+      <li>Cooking</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <possessions>
+      <MedicineHerbal>5</MedicineHerbal>
+    </possessions>
     <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
   </BackstoryDef>
 

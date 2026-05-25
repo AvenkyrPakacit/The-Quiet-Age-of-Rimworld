@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <defName>TQAQ_Drek_Child1</defName>
+    <title>drekir born</title>
+    <titleShort>drek child</titleShort>
+    <description>[PAWN_nameDef] grew up in a den, running around the hatchery, learning essential skills from the wild.\n\n[PAWN_pronoun] never was taught basic knowledge but gained a strong bite.</description>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Melee>6</Melee>
+      <Intellectual>-3</Intellectual>
+    </skillGains>
+    <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
+  </BackstoryDef>
+
+</Defs>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Worker -->
+
+  <BackstoryDef>
+    <defName>TQAQ_Denmate</defName>
+    <title>denmate</title>
+    <titleShort>denmate</titleShort>
+    <description>Nothing notable is known about [PAWN_nameDef], other than their a denmate.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>TQAQ_Drekir</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <!-- Warrior -->
+
+  <!-- Spiritual / cultural -->
+
+  <!-- Other -->
+
+</Defs>

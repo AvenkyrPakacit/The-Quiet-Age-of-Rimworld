@@ -2,9 +2,9 @@
 <Defs>
     <PawnKindDef ParentName="BasePlayerPawnKind">
         <defName>DrekirKind</defName>
-        <label>colonist</label>
+        <label>denmate</label>
         <race>DrekirRace</race>
-        <defaultFactionType>PlayerColony</defaultFactionType>
+        <defaultFactionType>PlayerTribe</defaultFactionType>
         <initialResistanceRange>13~21</initialResistanceRange>
     </PawnKindDef>
 </Defs>

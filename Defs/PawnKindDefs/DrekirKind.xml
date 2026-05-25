@@ -4,7 +4,7 @@
         <defName>DrekirKind</defName>
         <label>denmate</label>
         <race>DrekirRace</race>
-        <defaultFactionType>PlayerTribe</defaultFactionType>
+        <defaultFactionType>PlayerDenDrekir</defaultFactionType>
         <initialResistanceRange>13~21</initialResistanceRange>
     </PawnKindDef>
 </Defs>

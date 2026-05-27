@@ -5,7 +5,14 @@
         <label>drekir</label>
         <description>A draconic being created by the Prejarngalmok for the Sivilao to be used as pack animals.</description>
         <alienRace>
-            <generalSettings></generalSettings>
+            <generalSettings>
+                <headTypes Inherit="False">
+                    <li>TQAQ_Drek_Head</li>
+                </headTypes>
+                <bodyTypes Inherit="False">
+                    <li>TQAR_Drek_Body</li>
+                </bodyTypes>
+            </generalSettings>
             <graphicPaths>
                 <body>
 					<path>Things/Pawn/Drekir/Parts/Bodies</path>

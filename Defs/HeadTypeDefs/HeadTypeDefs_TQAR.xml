@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>TQAQ_Drek_Head</defName>
+    <graphicPath>Things/Pawn/Drekir/Parts/Heads/Drek_Head</graphicPath>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+</Defs>

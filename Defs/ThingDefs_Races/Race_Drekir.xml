@@ -6,7 +6,14 @@
         <description>A draconic being created by the Prejarngalmok for the Sivilao to be used as pack animals.</description>
         <alienRace>
             <generalSettings></generalSettings>
-            <graphicPaths></graphicPaths>
+            <graphicPaths>
+                <body>
+					<path>Things/Pawn/Drekir/Parts/Bodies</path>
+				</body>
+				<head>
+					<path>Things/Pawn/Drekir/Parts/Heads</path>
+				</head>
+            </graphicPaths>
             <styleSettings></styleSettings>
             <thoughtSettings></thoughtSettings>
             <relationSettings></relationSettings>

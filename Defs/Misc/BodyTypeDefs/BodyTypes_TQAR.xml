@@ -5,8 +5,8 @@
   <BodyTypeDef>
     <defName>TQAR_Drek_Body</defName>
     <headOffset>(0.04, 0.34)</headOffset>
-    <bodyNakedGraphicPath>Things/Pawn/Drekir/Parts/Heads/Drek_Body</bodyNakedGraphicPath>
-    <bodyDessicatedGraphicPath>Things/Pawn/Drekir/Parts/Heads/Drek_Body</bodyDessicatedGraphicPath>
+    <bodyNakedGraphicPath>Things/Pawn/Drekir/Parts/Bodies/Drek_Body</bodyNakedGraphicPath>
+    <bodyDessicatedGraphicPath>Things/Pawn/Drekir/Parts/Bodies/Drek_Body</bodyDessicatedGraphicPath>
     <bodyGraphicScale>(1, 0.9)</bodyGraphicScale>
     <woundAnchors>
       <li>

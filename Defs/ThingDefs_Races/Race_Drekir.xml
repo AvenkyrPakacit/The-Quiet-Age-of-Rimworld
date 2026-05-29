@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+    <AlienRace.ThingDef_AlienRace ParentName="Human">
         <defName>DrekirRace</defName>
         <label>drekir</label>
         <description>A draconic being created by the Prejarngalmok for the Sivilao to be used as pack animals.</description>
         <alienRace>
             <graphicPaths>
                 <body>
-					<path>Things/Pawn/Drekir/blank</path>
+					<path>Blank/blank</path>
 				</body>
 				<head>
-					<path>Things/Pawn/Drekir/blank</path>
+					<path>Blank/blank</path>
 				</head>
             </graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
                     <headTypes Inherit="False">
-                        <li>TQAQ_Drek_Head</li>
+                        <li>TQAR_Drek_Head</li>
                     </headTypes>
                     <bodyTypes Inherit="False">
                         <li>TQAR_Drek_Body</li>
@@ -24,22 +24,19 @@
 					<colorChannels>
 	                    <li>
 					    	<name>skin</name>
-						    <first Class="ColorGenerator_Options">
+						    <first Class="ColorGenerator_Options">	
     							<options>
 		    						<li>
 										<weight>8</weight>
 										<only>RGBA(0.8,0.71,0.64,1.0)</only>
-	    								</li>
 									</li>
 			    					<li>
 					    				<weight>8</weight>
 					    				<only>RGBA(0.71,0.8,0.64,1.0)</only>
-	    								</li>
 									</li>
 		    						<li>
 			    						<weight>8</weight>
 					    				<only>RGBA(0.64,0.71,0.8,1.0)</only>
-										</li>
 									</li>
 		    						<li>
 			    						<weight>8</weight>
@@ -49,59 +46,75 @@
 							</first>
 						</li>
 					</colorChannels>
-                	<bodyAddons>
-                    	<li>
-							<name>head</name>
+					<bodyAddons>
+						<li>
+							<name>eyes</name>
 							<userCustomizable>true</userCustomizable>
-							<colorChannel>skin</colorChannel>
+							<colorChannel>eye</colorChannel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<defaultOffset>Torso</defaultOffset>
+							<defaultOffset>Center</defaultOffset>
 							<alignWithHead>true</alignWithHead>
 							<conditions>
 								<BodyPart>
 									<bodyPart>Head</bodyPart>
 								</BodyPart>
-								<RotStage>Fresh,Rotting,Dessicated</RotStage>
+								<RotStage>Fresh,Rotting</RotStage>
 								<Posture>
 									<drawnStanding>true</drawnStanding>
 									<drawnLaying>true</drawnLaying>
-									<drawnInBed>true</drawnInBed>
 								</Posture>
 							</conditions>
 							<extendedGraphics>
-								<HeadType For="TQAQ_Drek_Head">Things/Pawn/Drekir/Parts/Heads/Drek_Head</HeadType>
+								<HeadType For="TQAR_Drek_Head">Blank/blank</HeadType>
 							</extendedGraphics>
-	                        <offsets>
+							<offsets>
 								<south>
-									<layerOffset>-0.28</layerOffset>
-									<headTypes>
-										<TQAQ_Drek_Head>(-0.42,0.22)</TQAQ_Drek_Head>
-									</headTypes>
+									<layerOffset>0</layerOffset>
 								</south>
-								<north>
-									<layerOffset>-0.28</layerOffset>
-									<headTypes>
-										<TQAQ_Drek_Head>(0,0.55)</TQAQ_Drek_Head>
-									</headTypes>
-								</north>
+								<north/>
 								<east>
-									<layerOffset>-0.28</layerOffset>
-									<headTypes>
-										<TQAQ_Drek_Head>(-0.33,0.29)</TQAQ_Drek_Head>
-									</headTypes>
+									<layerOffset>0</layerOffset>
 								</east>
 							</offsets>
-                    	</li>
-                	    <li>
-							<name>drekir body</name>
+						</li>
+						<li>
+							<name>head</name>
 							<userCustomizable>true</userCustomizable>
 							<colorChannel>skin</colorChannel>
 							<inFrontOfBody>true</inFrontOfBody>
-							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<defaultOffset>Torso</defaultOffset>
+							<defaultOffset>Center</defaultOffset>
 							<alignWithHead>true</alignWithHead>
+							<conditions>
+								<BodyPart>
+									<bodyPart>Head</bodyPart>
+								</BodyPart>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Posture>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
+								</Posture>
+							</conditions>
+							<extendedGraphics>
+								<HeadType For="TQAR_Drek_Head">Things/Pawn/Drekir/Parts/Heads/Drek_Head</HeadType>
+							</extendedGraphics>
+							<offsets>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<north/>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+							</offsets>
+						</li>
+						<li>
+							<name>body</name>
+							<userCustomizable>true</userCustomizable>
+							<colorChannel>skin</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<defaultOffset>Center</defaultOffset>
 							<conditions>
 								<BodyPart>
 									<bodyPart>Torso</bodyPart>
@@ -118,26 +131,15 @@
 							</extendedGraphics>
 							<offsets>
 								<south>
-									<layerOffset>-0.30</layerOffset>
-									<headTypes>
-										<TQAR_Drek_Body>(-0.42,0.22)</TQAR_Drek_Body>
-									</headTypes>
+									<layerOffset>0</layerOffset>
 								</south>
-								<north>
-									<layerOffset>-0.30</layerOffset>
-									<headTypes>
-										<TQAR_Drek_Body>(0,0.55)</TQAR_Drek_Body>
-									</headTypes>
-								</north>
+								<north/>
 								<east>
-									<layerOffset>-0.30</layerOffset>
-									<headTypes>
-										<TQAR_Drek_Body>(-0.33,0.29)</TQAR_Drek_Body>
-									</headTypes>
+									<layerOffset>0</layerOffset>
 								</east>
 							</offsets>
 						</li>
-    	            </bodyAddons>
+					</bodyAddons>
                 </alienPartGenerator>
             </generalSettings>
             <styleSettings></styleSettings>
@@ -145,6 +147,32 @@
             <relationSettings></relationSettings>
             <raceRestriction></raceRestriction>
             <compatibility></compatibility>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTags>
+							<li>alienNoStyle</li>
+						</styleTags>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTags>
+							<li>alienNoStyle</li>
+						</styleTags>
+					</value>
+				</li>
+			</styleSettings>
         </alienRace>
     </AlienRace.ThingDef_AlienRace>
 </Defs>

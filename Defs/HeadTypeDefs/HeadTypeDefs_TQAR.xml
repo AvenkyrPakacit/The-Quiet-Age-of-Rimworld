@@ -2,8 +2,8 @@
 <Defs>
 
   <HeadTypeDef ParentName="AverageBase">
-    <defName>TQAQ_Drek_Head</defName>
-    <graphicPath>Things/Pawn/Drekir/Parts/Heads/Drek_Head</graphicPath>
+    <defName>TQAR_Drek_Head</defName>
+    <graphicPath>Blank/blank</graphicPath>
     <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
   </HeadTypeDef>
 
